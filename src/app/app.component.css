@@ -5,3 +5,17 @@
 mat-card {
     background-color: grey;
 }
+
+.s-img img {
+    display: inline-block; /* Display as inline-block */
+    margin: 0 auto; /* Center align image */
+    vertical-align: center; /* Align image vertically */
+    align-self: center; /* Align image to its container */
+    height: 40px; /* Set height of image */
+    width: auto; /* Set width of image to auto */
+}
+
+/* Image Container Styling */
+.s-img {
+    text-align: center; /* Center align text in image container */
+}
