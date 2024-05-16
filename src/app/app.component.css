@@ -1,3 +1,26 @@
+/* Scrollbar Styling */
+/* Width and height */
+::-webkit-scrollbar {
+    width: 8px; /* Set width of the scrollbar */
+    height: 8px; /* Set height of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: grey; /* Set background color of the scrollbar track to transparent */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6D7993; /* Set background color of the scrollbar handle */
+    border-radius: 4px; /* Set border radius of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Set background color of the scrollbar handle on hover */
+}
+
 .card {
     background-color: white;
 }
@@ -19,3 +42,39 @@ mat-card {
 .s-img {
     text-align: center; /* Center align text in image container */
 }
+
+.image {
+    max-width: 100%; /* Ensure the container doesn't exceed the width of the viewport */
+    max-height: 100vh; /* Ensure the container doesn't exceed the height of the viewport */
+    text-align: center; /* Center the image horizontally */
+    overflow: hidden; /* Hide overflow */
+}
+
+.image img{
+    max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+    max-height: 100%; /* Ensure the image doesn't exceed the height of its container */
+    width: auto; /* Ensure the image maintains its aspect ratio */
+    height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.alt,
+.th {
+    width: 49%;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }

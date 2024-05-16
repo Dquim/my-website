@@ -1,82 +1,80 @@
 <body
   style="
     background-color: beige;
-    padding-left: 20px;
-    padding-right: 20px;
+
   "
-> 
+>
+<div class="image" 
+      style="
+            overflow: hidden; 
+            align-items: center;
+            padding: 0%;
+            ">
+  <img src="assets/images/Galaxy.jpg">
+</div>
  <div
     style="
       align-items: center;
       justify-content: center;
-      height: 200vh;
+      padding-left: 20px;
+      padding-right: 20px;
     ">
-    <div class="image" 
-          style="
-                overflow: hidden; 
-                justify-content: center;
-                ">
-      <img src="assets/images/Galaxy.jpg">
-    </div>
     <br>
     <mat-card class="experience" style="padding: 20px;">
       <mat-card class="card">
         <mat-card-title style="text-align: center;">Experience</mat-card-title>
       </mat-card>
-      <mat-grid-list cols="2" rowHeight="2:1" [gutterSize]="'10px'">
-        <mat-grid-tile>
-          <mat-card class="card">
-            <mat-card-header>
-              <mat-card-title>All Lines Technology</mat-card-title>
-              <mat-card-subtitle>Support Analyst I</mat-card-subtitle>
-            </mat-card-header>
-            <br>
-            <mat-card-content>
-              <p>Sept 2023</p>
-              <ul>
-                <li>
-                  Diagnose and resolve intricate hardware and software challenges through meticulous troubleshooting, ensuring seamless functionality and optimal performance.
-                </li>
-                <li>
-                  Identify and resolve complex network issues, implementing strategic solutions to enhance stability and ensure uninterrupted connectivity.
-                </li>
-                <li>
-                  Manage and optimize Active Directory environments, demonstrating adeptness in user account management and group policy configuration.
-                </li>
-              </ul>
-            </mat-card-content>
-          </mat-card>
-        </mat-grid-tile>
-        <mat-grid-tile>
-          <mat-card class="card">
-            <mat-card-header>
-              <mat-card-title>Treloar & Heisel</mat-card-title>
-              <mat-card-subtitle>Information Technology Intern</mat-card-subtitle>
-            </mat-card-header>
-            <br>
-            <mat-card-content>
-              <p>May 2021 - August 2021</p>
-              <ul>
-                <li>
-                  Utilized Nintex for data import/export between Excel and Applied Epic, streamlining data consolidation.
-                </li>
-                <li>
-                  Implemented a Microsoft Excel application for recruiters to collect data on potential recruits.
-                </li>
-                <li>
-                  Collaborated with team members to efficiently complete daily tasks and projects.
-                </li>
-                <li>
-                  Created queries and cross-referenced data between Epic and HubSpot to prevent duplicates.
-                </li>
-                <li>
-                  Reformatted computers with the company’s in-house software stack.
-                </li>
-              </ul>
-            </mat-card-content>
-          </mat-card>
-        </mat-grid-tile>
-      </mat-grid-list>
+      <br>
+      <div class='container'>
+            <mat-card class="card alt">
+              <mat-card-header>
+                <mat-card-title>All Lines Technology</mat-card-title>
+                <mat-card-subtitle>Support Analyst I</mat-card-subtitle>
+              </mat-card-header>
+              <br>
+              <mat-card-content>
+                <p>Sept 2023</p>
+                <ul>
+                  <li>
+                    Diagnose and resolve intricate hardware and software challenges through meticulous troubleshooting, ensuring seamless functionality and optimal performance.
+                  </li>
+                  <li>
+                    Identify and resolve complex network issues, implementing strategic solutions to enhance stability and ensure uninterrupted connectivity.
+                  </li>
+                  <li>
+                    Manage and optimize Active Directory environments, demonstrating adeptness in user account management and group policy configuration.
+                  </li>
+                </ul>
+              </mat-card-content>
+            </mat-card>
+            <mat-card class="card th">
+              <mat-card-header>
+                <mat-card-title>Treloar & Heisel</mat-card-title>
+                <mat-card-subtitle>Information Technology Intern</mat-card-subtitle>
+              </mat-card-header>
+              <br>
+              <mat-card-content>
+                <p>May 2021 - August 2021</p>
+                <ul>
+                  <li>
+                    Utilized Nintex for data import/export between Excel and Applied Epic, streamlining data consolidation.
+                  </li>
+                  <li>
+                    Implemented a Microsoft Excel application for recruiters to collect data on potential recruits.
+                  </li>
+                  <li>
+                    Collaborated with team members to efficiently complete daily tasks and projects.
+                  </li>
+                  <li>
+                    Created queries and cross-referenced data between Epic and HubSpot to prevent duplicates.
+                  </li>
+                  <li>
+                    Reformatted computers with the company’s in-house software stack.
+                  </li>
+                </ul>
+              </mat-card-content>
+            </mat-card>
+      </div>
     </mat-card>
     <br>
     <mat-card class="education" style="padding: 20px;">
@@ -148,31 +146,43 @@
       </mat-card>
     </mat-card>
     <br>
-    <mat-card class="contact" style="padding: 20px;">
+    <mat-card class="about" style="padding: 20px;">
       <mat-card class="card">
-        <mat-card-title style="text-align: center;">
-          Contact Me
-        </mat-card-title>
+        <mat-card-title style="text-align: center;">Contact Me</mat-card-title>
       </mat-card>
       <br>
-      <mat-card class="card">
+      <mat-card class="card" style="padding: 20px;">
         <mat-card-content>
-          <li>                    
-            🌟 Let's Connect! 🌟
-          </li>
-          <br>
-          <li>
-            👋 Hello there! I'm thrilled you've stopped by. If you're passionate about technology, problem-solving, or just love connecting with like-minded individuals, I'd love to hear from you!
-          </li>
-          <br>
-          <li>
-            🌐 Whether you're exploring potential collaborations, have questions about my work, or simply want to exchange ideas, I'm all ears. Let's connect and see how we can support each other professionally.
-          </li>
-          <br>
-          <li>
-            💬 Shoot me a message via LinkedIn or drop me an email at (FILL IN EMAIL HERE), and let's start a conversation. Looking forward to connecting with you!
-          </li>
-          <br>
+          <ul>
+            <li>
+              🌟 Let's Connect! 🌟
+            </li>
+            <br>
+            <li>
+              👋 Hello there! I'm thrilled you've stopped by. If you're passionate about technology, problem-solving, or just love connecting with like-minded individuals, I'd love to hear from you!
+            </li>
+            <br>
+            <li>
+              🌐 Whether you're exploring potential collaborations, have questions about my work, or simply want to exchange ideas, I'm all ears. Let's connect and see how we can support each other professionally.
+            </li>
+            <br>
+            <li>
+              💬 Shoot me a message via LinkedIn or drop me an email at (FILL IN EMAIL HERE), and let's start a conversation. Looking forward to connecting with you!
+            </li>
+          </ul>
+          <div class="example-container">
+            <mat-form-field>
+              <mat-label>Enter your email</mat-label>
+              <input matInput
+                     placeholder="pat@example.com"
+                     [formControl]="email"
+                     (blur)="updateErrorMessage()"
+                     required>
+              @if (email.invalid) {
+                <mat-error>{{errorMessage}}</mat-error>
+              }
+            </mat-form-field>
+          </div>
           <div class="s-img">
             <a href="https://www.linkedin.com/in/damian-quimby-410b3a14a/" target="_blank">
                 <img src="assets/images/LI-In-Bug.png" alt="Image1">
